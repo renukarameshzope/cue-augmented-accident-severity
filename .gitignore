@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+results/
+data/toy/
+data/images/
+weights/
+*.pt
+*.pth
+*.npz
+.venv/

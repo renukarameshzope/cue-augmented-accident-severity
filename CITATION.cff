@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Cue-Augmented Accident Severity Estimation (reference implementation)"
+authors:
+  - family-names: Zope
+    given-names: Renuka
+    orcid: "https://orcid.org/0009-0004-3847-2756"
+  - family-names: Bhoite
+    given-names: Sachin
+    orcid: "https://orcid.org/0000-0001-8710-7289"
+license: MIT
+version: 0.1.0

@@ -1,0 +1,4 @@
+incident_id,timestamp,segment,lat,lon,incident_type,severity,vehicles,lanes_blocked,weather,traffic,clearance_min,note
+SEED001,2026-02-04 17:00,Adoshi Tunnel,18.783,73.373,tanker overturn,high,1,3,rainy,heavy,1980,approximate value from public accounts; not an official record
+SEED002,2025-07-26 11:20,Khandala Ghat,18.720,73.395,multi-vehicle pile-up,high,20,3,clear,very heavy,240,approximate value from public accounts; not an official record
+SEED003,2024-11-12 06:15,Amrutanjan Bridge,18.750,73.420,truck brake failure,moderate,3,1,foggy,medium,90,approximate value from public accounts; not an official record

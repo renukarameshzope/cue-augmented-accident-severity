@@ -1,0 +1,14 @@
+# Small CPU-friendly settings for the toy smoke test (no pretrained download).
+train:
+  backbone: efficientnet_b1
+  pretrained: false
+  n_frozen_blocks: 0
+  hidden: 64
+  dropout: 0.2
+  lr: 0.001
+  batch_size: 16
+  epochs: 12
+  image_size: 96
+  num_workers: 0
+  seed: 42
+  device: cpu

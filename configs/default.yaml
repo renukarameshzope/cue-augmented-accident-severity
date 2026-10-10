@@ -1,0 +1,14 @@
+# Training settings (paper Table 3). Change values here, not in code.
+train:
+  backbone: efficientnet_b1      # efficientnet_b1 | resnet50 | vit_b_16
+  pretrained: true               # ImageNet weights
+  n_frozen_blocks: 3             # stem + first 3 MBConv stages frozen
+  hidden: 256
+  dropout: 0.3
+  lr: 0.0001                     # Adam, cosine decay
+  weight_decay: 0.0001
+  batch_size: 32
+  epochs: 20
+  image_size: 240
+  num_workers: 2
+  seed: 42
